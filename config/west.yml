@@ -14,7 +14,7 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: Tscheburator
+    - name: tscheburator
       url-base: https://github.com/Tscheburator
   projects:
     - name: zmk
@@ -22,7 +22,7 @@ manifest:
       revision: main
       import: app/west.yml
     - name: zmk-config
-      remote: Tscheburator
+      remote: tscheburator
       revision: main
   self:
     path: config
