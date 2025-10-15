@@ -15,7 +15,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: tscheburator
-      url-base: git@github.com:Tscheburator
+      url-base: https://github.com/Tscheburator
   projects:
     - name: zmk
       remote: zmkfirmware
