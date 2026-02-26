@@ -24,7 +24,7 @@
 
            bindings = <
                // ===== Zahlenreihe (ESC links, verschoben) =====
-               &kp ESC    &kp DE_1   &kp DE_2   &kp DE_3   &kp DE_4   &kp  DE_5  &kp DE_6   &kp DE_7   &kp DE_8   &kp DE_9   &kp DE_0   &kp DE_SS
+               &kp ESC    &kp DE_1   &kp DE_2   &kp 3   &kp DE_4   &kp  DE_5  &kp DE_6   &kp DE_7   &kp DE_8   &kp DE_9   &kp DE_0   &kp DE_SS
 
                // ===== Buchstaben 1 =====
                &kp TAB    &kp DE_Q   &kp DE_W   &kp DE_E   &kp DE_R   &kp DE_T   &kp DE_Z   &kp DE_U   &kp DE_I   &kp DE_O   &kp DE_P   &kp DE_UE
