@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include "keys_de.h"
+
 #include <dt-bindings/zmk/mouse.h>
 
 / {
