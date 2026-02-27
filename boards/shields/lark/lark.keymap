@@ -28,7 +28,9 @@
 
                // ===== Zahlenreihe (ESC links, verschoben) =====
 
-               &kp ESC       &kp DE_1   &kp DE_2   &kp DE_3   &kp DE_4   &kp  DE_5  &kp DE_6   &kp DE_7   &kp DE_8   &kp DE_9   &kp DE_0   &kp DE_SS
+
+
+                 &kp ESC       &kp DE_1   &kp DE_2   &kp DE_3   &kp DE_4   &kp  DE_5  &kp DE_6   &kp DE_7   &kp DE_8   &kp DE_9   &kp DE_0   &kp DE_SS
 
 
                // ===== Buchstaben 1 =====
