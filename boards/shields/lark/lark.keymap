@@ -22,8 +22,12 @@
        base_layer {
            label = "BASE";
 
+
            bindings = <
+
+
                // ===== Zahlenreihe (ESC links, verschoben) =====
+
                &kp ESC    &kp DE_1   &kp DE_2   &kp 3   &kp DE_4   &kp  DE_5  &kp DE_6   &kp DE_7   &kp DE_8   &kp DE_9   &kp DE_0   &kp DE_SS
 
                // ===== Buchstaben 1 =====
@@ -33,7 +37,7 @@
                &kp LSHIFT &kp DE_A   &kp DE_S   &kp DE_D   &kp DE_F   &kp DE_G   &kp DE_H   &kp DE_J   &kp DE_K   &kp DE_L   &kp DE_OE  &kp DE_AE
 
                // ===== Buchstaben 3 + Daumen =====
-               &kp LCTRL  &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B   &kp DE_N   &kp DE_M   &kp DE_COMMA &kp DE_DOT &kp DEL &bspc_mouse
+               &kp LCTRL  &kp DE_Y   &kp DE_X   &kp DE_C   &kp DE_V   &kp DE_B   &kp DE_N   &kp DE_M   &kp DE_COMMA &kp DE_DOT &kp DEL   &bspc_mouse
            >;
        };
 
