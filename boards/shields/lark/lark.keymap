@@ -63,11 +63,11 @@
         base_layer {
             label = "BASE";
             bindings = <
-&kp ESC         &kp 1           &kp 2           &kp 3           &kp 4           &kp 5           &kp 6           &kp 7           &kp 8           &kp 9           &kp 0           &kp DE_SZ
-&kp TAB         &kp DE_Q        &kp DE_W        &kp DE_E        &kp DE_R        &kp DE_T        &kp DE_Z        &kp DE_U        &kp DE_I        &kp DE_O        &kp DE_P        &kp DE_UE
-&kp LSHIFT      &kp DE_A        &kp DE_S        &kp DE_D        &kp DE_F        &kp DE_G        &kp DE_H        &kp DE_J        &kp DE_K        &kp DE_L        &kp DE_OE       &kp DE_AE
+&kp ESC         &kp DE_N1       &kp DE_N2       &kp DE_N3       &kp DE_N4       &kp DE_N5       &kp DE_N6       &kp DE_N7       &kp DE_N8       &kp DE_N9       &kp DE_N0       &kp DE_SZ
+&kp TAB         &kp DE_Q        &kp DE_W        &kp DE_E        &kp DE_R        &kp DE_T        &kp DE_Z        &kp DE_U        &kp DE_I        &kp DE_O        &kp DE_P        &kp DE_U_UMLAUT
+&kp LSHIFT      &kp DE_A        &kp DE_S        &kp DE_D        &kp DE_F        &kp DE_G        &kp DE_H        &kp DE_J        &kp DE_K        &kp DE_L        &kp DE_O_UMLAUT &kp DE_A_UMLAUT
 &kp LCTRL       &kp DE_Y        &kp DE_X        &kp DE_C        &kp DE_V        &kp DE_B        &kp DE_N        &kp DE_M        &kp DE_COMMA    &kp DE_DOT      &kp DEL         &kp ENTER
-&kp DOWN        &kp RIGHT       &kp LT          &kp GT          &kp LEFT        &kp UP          &kp SPACE       &mo 1           &mo 2           &kp RALT        &mo 3           &none
+&kp DOWN        &kp RIGHT       &kp DE_LT       &kp DE_GT       &kp LEFT        &kp UP          &kp SPACE       &mo 1           &mo 2           &kp RALT        &mo 3           &none
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
             >;
         };
@@ -87,11 +87,11 @@
         sym_layer {
             label = "SYM";
             bindings = <
-&trans          &kp EXCL        &kp DQT         &trans          &kp DLLR        &kp PRCNT       &kp AMPS        &FSLH           &kp LPAR        &kp RPAR        &kp EQUAL       &kp QMRK
-&trans          &kp AT          &trans          &trans          &trans          &trans          &trans          &trans          &kp LBRC        &kp RBRC        &kp BSLH        &kp STAR
-&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &kp LBKT        &kp RBKT        &kp GRAVE       &kp NUHS
-&trans          &trans          &trans          &trans          &trans          &trans          &kp UNDERSCORE  &kp MINUS       &kp SEMI        &kp COLON       &trans          &trans
-&trans          &trans          &kp PIPE        &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
+&trans          &kp EXCL        &kp DQT         &kp DE_SECT     &kp DLLR        &kp PRCNT       &kp AMPS        &FSLH           &kp LPAR        &kp RPAR        &kp DE_EQUAL    &kp DE_QUESTION
+&trans          &kp DE_AT_SIGN  &kp DE_TILDE    &trans          &trans          &trans          &trans          &trans          &kp DE_LBRC     &kp DE_RBRC     &kp DE_BSLH     &kp STAR
+&trans          &kp DE_CARET    &trans          &trans          &trans          &trans          &trans          &trans          &kp DE_LBKT     &kp DE_RBKT     &kp DE_GRAVE    &kp NUHS
+&trans          &kp DE_DEGREE   &trans          &trans          &trans          &trans          &kp DE_UNDER    &kp MINUS       &kp DE_SEMI     &kp DE_COLON    &trans          &trans
+&trans          &trans          &kp DE_PIPE     &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
 &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none           &none
             >;
         };
@@ -99,8 +99,8 @@
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans          &kp SCRL_UP     &kp SCRL_DOWN   &kp SCRL_LEFT   &kp SCRL_RIGHT  &trans          &trans
+&trans          &trans          &kp DE_SQUARE   &kp DE_CUBE     &trans          &trans          &trans          &trans          &trans          &trans          &trans          &trans
+&trans          &trans          &trans          &kp DE_EURO     &trans          &trans          &kp SCRL_UP     &kp SCRL_DOWN   &kp SCRL_LEFT   &kp SCRL_RIGHT  &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &kp LCLK        &kp MCLK        &kp RCLK        &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans          &kp MB4         &kp MB5         &trans          &trans          &trans          &trans
 &kp MOVE_DOWN   &kp MOVE_RIGHT  &trans          &trans          &kp MOVE_LEFT   &kp MOVE_UP     &trans          &trans          &trans          &trans          &trans          &trans
