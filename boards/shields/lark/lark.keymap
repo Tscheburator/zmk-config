@@ -64,7 +64,7 @@
             label = "BASE";
             bindings = <
 &kp ESC         &kp 1           &kp 2           &kp 3           &kp 4           &kp 5           &kp 6           &kp 7           &kp 8           &kp 9           &kp 0           &kp DE_SZ
-&kp TAB         &kp DE_Q        &kp DE_W        &kp DE_E        &kp DE_R        &kp DE_T        &kp DE_Z        &kp DE_U        &kp DE_I        &kp_DE_O        &kp DE_P        &kp DE_UE
+&kp TAB         &kp DE_Q        &kp DE_W        &kp DE_E        &kp DE_R        &kp DE_T        &kp DE_Z        &kp DE_U        &kp DE_I        &kp DE_O        &kp DE_P        &kp DE_UE
 &kp LSHIFT      &kp DE_A        &kp DE_S        &kp DE_D        &kp DE_F        &kp DE_G        &kp DE_H        &kp DE_J        &kp DE_K        &kp DE_L        &kp DE_OE       &kp DE_AE
 &kp LCTRL       &kp DE_Y        &kp DE_X        &kp DE_C        &kp DE_V        &kp DE_B        &kp DE_N        &kp DE_M        &kp DE_COMMA    &kp DE_DOT      &kp DEL         &kp ENTER
 &kp DOWN        &kp RIGHT       &kp LT          &kp GT          &kp LEFT        &kp UP          &kp SPACE       &mo 1           &mo 2           &kp RALT        &mo 3           &none
