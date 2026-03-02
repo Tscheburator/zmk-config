@@ -92,7 +92,7 @@
 &trans          &kp DE_AT_SIGN  &kp DE_TILDE    &trans          &trans          &trans                  &trans          &trans          &kp DE_LBRC     &kp DE_RBRC     &kp DE_BSLH     &kp STAR
 &trans          &kp DE_CARET    &trans          &trans          &trans          &trans                  &trans          &trans          &kp DE_LBKT     &kp DE_RBKT     &kp DE_GRAVE    &kp NUHS
 &trans          &kp DE_DEGREE   &trans          &trans          &trans          &trans                  &kp DE_UNDER    &kp MINUS       &kp DE_SEMI     &kp DE_COLON    &kp INS         &trans
-&trans          &trans          &kp DE_PIPE     &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &KP BSPC        &trans
+&trans          &trans          &kp DE_PIPE     &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &kp BSPC        &trans
 &none           &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
             >;
         };
