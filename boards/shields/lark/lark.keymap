@@ -77,9 +77,9 @@
             label = "FN";
             bindings = <
 &kp F1          &kp F2          &kp F3          &kp F4          &kp F5          &kp F6                  &kp F7          &kp F8          &kp F9          &kp F10         &kp F11         &kp F12
-&trans          &trans          &trans          &trans          &tog 4          &trans                  &kp HOME        &kp PG_UP       &trans          &trans          &trans          &trans
+&trans          &trans          &trans          &trans          &trans          &trans                  &kp HOME        &kp PG_UP       &trans          &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans                  &kp END         &kp PG_DN       &trans          &trans          &trans          &trans
-&trans          &trans          &trans          &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &trans
+&tog 4          &trans          &trans          &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &trans
 &none           &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
             >;
