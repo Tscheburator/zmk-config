@@ -112,7 +112,7 @@
         russian_layer {
             label = "RUSSIAN";
             bindings = <
-&uc UC_RU_YO    &trans          &trans          &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &uc UC_RU_HARD
+&trans          &trans          &trans          &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &uc UC_RU_HARD
 &trans          &uc UC_RU_YO    &uc UC_RU_TS    &uc UC_RU_U     &uc UC_RU_K     &uc UC_RU_YE            &uc UC_RU_N     &uc UC_RU_G     &uc UC_RU_SH    &uc UC_RU_SHCH  &uc UC_RU_Z     &uc UC_RU_KH
 &trans          &uc UC_RU_F     &uc UC_RU_BI    &uc UC_RU_V     &uc UC_RU_A     &uc UC_RU_P             &uc UC_RU_R     &uc UC_RU_O     &uc UC_RU_L     &uc UC_RU_D     &uc UC_RU_ZH    &uc UC_RU_E
 &trans          &uc UC_RU_YA    &uc UC_RU_CH    &uc UC_RU_S     &uc UC_RU_M     &uc UC_RU_I             &uc UC_RU_T     &uc UC_RU_SOFT  &uc UC_RU_B     &uc UC_RU_YU    &trans          &trans
