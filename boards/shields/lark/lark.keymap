@@ -91,8 +91,8 @@
 &trans          &kp EXCL        &kp DQT         &kp DE_SECT     &kp DLLR        &kp PRCNT               &kp AMPS        &kp FSLH        &kp LPAR        &kp RPAR        &kp DE_EQUAL    &kp DE_QUESTION
 &trans          &kp DE_AT_SIGN  &kp DE_TILDE    &trans          &trans          &trans                  &trans          &trans          &kp DE_LBRC     &kp DE_RBRC     &kp DE_BSLH     &kp STAR
 &trans          &kp DE_CARET    &trans          &trans          &trans          &trans                  &trans          &trans          &kp DE_LBKT     &kp DE_RBKT     &kp DE_GRAVE    &kp NUHS
-&trans          &kp DE_DEGREE   &trans          &trans          &trans          &trans                  &kp DE_UNDER    &kp MINUS       &kp DE_SEMI     &kp DE_COLON    &trans          &trans
-&trans          &trans          &kp DE_PIPE     &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &trans
+&trans          &kp DE_DEGREE   &trans          &trans          &trans          &trans                  &kp DE_UNDER    &kp MINUS       &kp DE_SEMI     &kp DE_COLON    &kp INS         &trans
+&trans          &trans          &kp DE_PIPE     &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &KP BSPC        &trans
 &none           &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
             >;
         };
@@ -104,7 +104,7 @@
 &trans          &trans          &trans          &kp DE_EURO     &trans          &trans                  &msc SCRL_UP    &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans                  &mkp LCLK       &mkp MCLK       &mkp RCLK       &trans          &trans          &trans
 &trans          &trans          &trans          &trans          &trans          &trans                  &mkp MB4        &mkp MB5        &trans          &trans          &trans          &trans
-&kp MOVE_DOWN   &kp MOVE_RIGHT  &trans          &trans          &kp MOVE_LEFT   &kp MOVE_UP             &trans          &trans          &trans          &trans          &trans          &trans
+&mmv MOVE_DOWN  &mmv MOVE_RIGHT &trans          &trans          &mmv MOVE_LEFT  &mmv MOVE_UP            &trans          &trans          &trans          &trans          &trans          &trans
 &none           &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
             >;
         };
