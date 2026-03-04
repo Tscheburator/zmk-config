@@ -68,7 +68,7 @@
 &kp TAB         &kp DE_Q        &kp DE_W        &kp DE_E        &kp DE_R        &kp DE_T                &kp DE_Z        &kp DE_U        &kp DE_I        &kp DE_O        &kp DE_P        &kp DE_U_UMLAUT
 &kp LSHIFT      &kp DE_A        &kp DE_S        &kp DE_D        &kp DE_F        &kp DE_G                &kp DE_H        &kp DE_J        &kp DE_K        &kp DE_L        &kp DE_O_UMLAUT &kp DE_A_UMLAUT
 &kp LCTRL       &kp DE_Y        &kp DE_X        &kp DE_C        &kp DE_V        &kp DE_B                &kp DE_N        &kp DE_M        &kp DE_COMMA    &kp DE_DOT      &kp DEL         &kp ENTER
-&kp DOWN        &kp RIGHT       &trans          &kp LALT        &kp LEFT        &kp UP                  &kp SPACE       &mo 2           &mo 1           &kp RALT        &mo 3           &none
+&kp DOWN        &kp RIGHT       &kp DE_PIPE     &kp LALT        &kp LEFT        &kp UP                  &kp SPACE       &mo 2           &mo 1           &kp RALT        &mo 3           &none
 &none           &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
             >;
         };
@@ -88,11 +88,11 @@
         sym_layer {
             label = "SYM";
             bindings = <
-&trans          &kp EXCL        &kp DQT         &kp DE_SECT     &kp DLLR        &kp PRCNT               &kp AMPS        &kp FSLH        &kp LPAR        &kp RPAR        &kp DE_EQUAL    &kp DE_QUESTION
-&trans          &kp DE_AT_SIGN  &kp DE_TILDE    &trans          &trans          &trans                  &trans          &trans          &kp DE_LBRC     &kp DE_RBRC     &kp DE_BSLH     &kp STAR
-&trans          &kp DE_CARET    &trans          &trans          &trans          &trans                  &trans          &trans          &kp DE_LBKT     &kp DE_RBKT     &kp DE_GRAVE    &kp NUHS
-&trans          &kp DE_DEGREE   &kp LT          &kp GT          &trans          &trans                  &kp DE_UNDER    &kp DE_MINUS       &kp DE_SEMI     &kp DE_COLON    &kp BSPC        &kp INS
-&trans          &trans          &kp DE_PIPE     &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &trans
+&trans          &trans          &kp DE_DQT      &kp DE_SECT     &kp DE_DLLR     &kp DE_PRCNT            &kp DE_AM       &kp DE_FSLH     &kp DE_LP       &kp DE_RP       &kp DE_EQUAL    &kp DE_QUESTION
+&trans          &kp DE_AT       &kp DE_TILDE    &trans          &trans          &trans                  &trans          &trans          &kp DE_LBRC     &kp DE_RBRC     &kp DE_BSLH     &kp DE_STAR
+&trans          &kp DE_CARET    &trans          &trans          &trans          &trans                  &trans          &trans          &kp DE_LBKT     &kp DE_RBKT     &kp DE_GRAVE    &kp DE_HASH
+&trans          &kp DE_DEGREE   &kp DE_LT       &kp DE_GT       &trans          &trans                  &kp DE_UNDER    &kp DE_MINUS    &kp DE_SEMI     &kp DE_COLON    &kp BSPC        &kp INS
+&trans          &trans          &kp DE_PLUS     &trans          &trans          &trans                  &trans          &trans          &trans          &trans          &trans          &trans
 &none           &none           &none           &none           &none           &none                   &none           &none           &none           &none           &none           &none
             >;
         };
